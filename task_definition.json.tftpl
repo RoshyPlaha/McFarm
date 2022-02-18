@@ -1,0 +1,16 @@
+[
+  {
+    "essential": true,
+    "memory": 512,
+    "name": "worker",
+    "cpu": 2,
+    "image": "${REPOSITORY_URL}:latest",
+    "environment": [],
+    "portMappings": [
+        {
+          "containerPort": 3000,
+          "hostPort": 3000
+        }
+      ]
+  }
+]
