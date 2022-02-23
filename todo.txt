@@ -1,0 +1,4 @@
+separate out db creation (or remove?) from ecs. perhaps start by having vpc tf
+create image in ecr
+create pipeline to update image.
+add lb to ecs

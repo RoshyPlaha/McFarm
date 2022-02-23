@@ -1,5 +1,5 @@
 .terraform/**
+.terraform.lock.hcl
 
 pipeline/node_modules/**
-
 app/node_modules/**
